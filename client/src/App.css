@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  border: 2px solid white;
+  background: white;
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.buttons {
+  margin: 10px;
+}
+
+.clear-btn {
+  background: black;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.predict-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.center-container {
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertical centering */
+  align-items: center; /* Horizontal centering */
+}
